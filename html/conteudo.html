@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todas as Biografias</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/background.css">
+    <link rel="stylesheet" href="../css/conteudo.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a class="logo" href="">Biografy</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="inicial.html"></a>Início</li>
+                <li><a href="sobrenos.html"></a>Sobre</li>
+                <li><a href="conteudo.html"></a>Conteúdo</li>
+            </ul>  
+
+            <a href="loginRegistro.html"><button class="btn-login">Entrar</button></a>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h1 class="texto">Biografias</h1>
+    </div>
+
+    <div class="subtitulo">
+        <span>As biografias mais populares no Biografy:</span>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>Oprah</h2>
+                <h3>Oprah Winfrey</h3>
+                <p>Artista e Apresentadora de TV</p>
+                <a id="leia-sobre" href="bio1oprah.html">Leia sobre</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    
+    
+    <script src="../js/mobile-navbar.js"></script>
+    <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 8,
+            speed: 12,
+        });
+    </script>
+</body>
+</html>

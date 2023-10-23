@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 5vh;
+    transition: 0.3s;
+    margin-left: 5vw;
+}
+
+.texto {
+    color: #3589b3;
+    font-weight: 700;
+    font-size: 2em;
+    font-family: 'Roboto';
+  }
+
+.subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 5vw;
+    font-family: 'Roboto';
+    color: #122c39;
+    font-weight: 500;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10vw;
+}
+
+.container .card {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 3px;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                       rgba(0, 0, 0, 0.5)), url("../img/oprah\ crl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card .content   {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+.container .card:hover .content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container .card .content h2 {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.2);
+    pointer-events: none;
+}
+
+.container .card .content h3 {
+    font-size: 1.8em;
+    color: #39a1d5;
+    z-index: 1;
+}
+
+.container .card .content p {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+}
+
+.container .card .content a {
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #39a1d5;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    font-family: 'Poppins';
+}
+
+.container .card .content a:hover {
+    background-color: white;
+    color: #39a1d5;
+    box-shadow: white 0px 0px 17px;
+}
+
