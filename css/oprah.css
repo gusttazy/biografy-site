@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 .titulo {
@@ -38,8 +45,8 @@
     align-items: center;
     margin-right: 10vw;
     margin-top: -38vh;
-
 }
+
 
 .ophome {
     max-width: 550px;
@@ -47,8 +54,14 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.3s ease-in;
     margin-top: 5vh;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    cursor: pointer;
+    transition: ease-in 0.2s;
 }
 
+.ophome:hover {
+    transform: scale(1.01);
+}
 
 .home-content   {
     max-width: 50vw;
@@ -65,128 +78,59 @@
     color: rgb(48, 60, 106);
 }
 
-.op1 {
+.op {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10vh;
+}
+
+#op {
     margin-top: 30vh;
 }
 
-.op1 h1 {
+.op h1 {
     font-size: 40px;
     display: flex;
     justify-content: center;
     color: rgb(105, 128, 255);
 }
 
-.op1 p {
+.op p {
     max-width: 80vw;
     margin-top: 3vh;
     font-size: 20px;
     text-indent: 8vw;
 }
 
-.op2 {
+.opVideo {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-top: 5vh;
 }
 
-.op2 h1 {
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    color: rgb(105, 128, 255);
-}
-
-.op2 p {
-    max-width: 80vw;
-    margin-top: 3vh;
-    font-size: 20px;
-    text-indent: 8vw;
-}
-
-.op3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
-}
-
-.op3 h1 {
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    color: rgb(105, 128, 255);
-}
-
-.op3 p {
-    max-width: 80vw;
-    margin-top: 3vh;
-    font-size: 20px;
-    text-indent: 8vw;
-}
-
-.op4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
-}
-
-.op4 h1 {
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    color: rgb(105, 128, 255);
-}
-
-.op4 p {
-    max-width: 80vw;
-    margin-top: 3vh;
-    font-size: 20px;
-    text-indent: 8vw;
-}
-
-.op5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
-}
-
-.op5 h1 {
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    color: rgb(105, 128, 255);
-}
-
-.op5 p {
-    max-width: 80vw;
-    margin-top: 3vh;
-    font-size: 20px;
-    text-indent: 8vw;
-}
-
-.opcrianca {
+.opImagens {
     max-width: 550px;
     margin-top: 5vh;
-    margin-left: 20vw;
+    margin-left: 23vw;
     box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
-.opvideo {
+.opFinal {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 5vh;
+    align-items: center;
+    margin-top: 10vh;
 }
 
-.opfilme {
-    max-width: 550px;
-    margin-top: 5vh;
-    margin-left: 20vw;
-    box-shadow: #64646f33 0px 7px 29px 0px;
+.opFinal p {
+    margin-top: 3vh;
+    font-size: 42px;
+    margin-bottom: 20vh;
+    text-indent: 3vw;
+    color: rgb(93, 107, 192);
+    font-family: 'Kalam', cursive;
+    text-justify: inter-word;
 }
+

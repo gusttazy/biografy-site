@@ -8,7 +8,7 @@
     font-family: 'Poppins';
 }
 
-#sla  {
+a  {
     color: #fff;
     text-decoration: none;
     transition: 0.3s ease;
@@ -116,7 +116,7 @@ li {
     position: relative;
   }
   
-  li > #sla {
+  li > a {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -138,25 +138,43 @@ li {
 }
 
 .btn-login {
-    width: 110px;
-    height: 40px;
-    background: transparent;
-    border: aliceblue solid 3px;
-    border-radius: 6px;
+    background: #fff;
+    color: rgb(110, 187, 250);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    width: 100px;
     cursor: pointer;
-    outline: none;
-    font-size: 0.9em;
-    color: aliceblue;
-    font-weight: bold;
-    transition: 0.3s;
-    
-}
+    transform: skew(-1deg);
+  }
+  
+  .btn-login::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: #1b8ac6;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+    border-radius: 8px;
+  }
+  
+  .btn-login:hover {
+    color: #fff;
+  }
+  
+  .btn-login:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
 
-.btn-login:hover {
-    background: aliceblue;
-    color: #39a1d5;
-    box-shadow: white 0px 0px 32px;
-}
 
 
 
