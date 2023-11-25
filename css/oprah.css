@@ -111,10 +111,14 @@
 }
 
 .opImagens {
-    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 500px;
     margin-top: 5vh;
-    margin-left: 23vw;
-    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .opFinal {

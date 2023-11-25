@@ -139,7 +139,7 @@ li {
 
 .btn-login {
     background: #fff;
-    color: rgb(110, 187, 250);
+    color: #39a1d5;
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
@@ -148,32 +148,14 @@ li {
     font-weight: 600;
     width: 100px;
     cursor: pointer;
-    transform: skew(-1deg);
+    transition: ease-in-out 0.6s;
   }
-  
-  .btn-login::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 100%;
-    left: 0;
-    background: #1b8ac6;
-    opacity: 0;
-    z-index: -1;
-    transition: all 0.5s;
-    border-radius: 8px;
-  }
-  
+
   .btn-login:hover {
-    color: #fff;
+    box-shadow: #8ed9ff 0 0 20px;
+    transform: scale(1.01);
   }
   
-  .btn-login:hover::before {
-    left: 0;
-    right: 0;
-    opacity: 1;
-  }
 
 
 
