@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -12,20 +10,26 @@ a  {
     color: #fff;
     text-decoration: none;
     transition: 0.3s ease;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
 }
 
 
 .logo {
     font-size: 24px;
     margin-right: 20vw;
+    transition: ease-in 0.5s;
+}
+
+.logo:hover {
+    text-shadow: 0px 0px 2px #e0e0e0;
+    transform: scale(1.03);
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #39a1d5;
+    background: #04061d;
     height: 9vh;
 }
 
@@ -65,7 +69,7 @@ nav {
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #39a1d5;
+        background: #04061d;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -138,28 +142,46 @@ li {
 }
 
 .btn-login {
-    background: #fff;
-    color: #39a1d5;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     display: inline-block;
-    font-size: 17px;
-    font-weight: 600;
-    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: 0.6em 1.3em;
+    position: relative;
+    color: #04061d;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
     cursor: pointer;
-    transition: ease-in-out 0.6s;
-  }
-
-  .btn-login:hover {
-    box-shadow: #8ed9ff 0 0 20px;
-    transform: scale(1.01);
   }
   
-
-
-
-
-
-
-
+  .btn-login:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #071393;
+    z-index: -1;
+  }
+  
+  .btn-login:hover, .btn-login:focus {
+    color: white;
+  }
+  
+  .btn-login:hover:before, .btn-login:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  .btn-login:active {
+    transform: scale(0.9);
+  }

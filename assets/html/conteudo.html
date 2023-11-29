@@ -40,10 +40,9 @@
     <div class="container">
         <div class="card">
             <div class="content">
-                <h2>Oprah</h2>
                 <h3>Oprah Winfrey</h3>
                 <p>Artista e Apresentadora de TV</p>
-                <a id="leia-sobre" href="bio1oprah.html">Leia sobre</a>
+                <a id="leia-sobre" href="bio1oprah.html">Saiba mais</a>
             </div>
         </div>
     </div>
@@ -57,8 +56,11 @@
     <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".card"), {
-            max: 8,
-            speed: 12,
+            max: 12,
+            speed: 300,
+            glare: true,
+           "max-glare": 0.05,
+           easing:                 "cubic-bezier(.03,.98,.52,.99)" ,
         });
     </script>
     <script src="../js/mobile-navbar.js"></script>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
@@ -25,10 +25,10 @@ body {
 }
 
 .texto {
-    color: #15aaff;
-    font-weight: 700;
-    font-size: 2em;
-    font-family: 'Roboto';
+    color: #071393;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Poppins';
   }
 
 .subtitulo {
@@ -36,7 +36,6 @@ body {
     align-items: center;
     justify-content: left;
     margin-left: 5vw;
-    font-family: 'Roboto';
     color: #122c39;
     font-weight: 500;
 }
@@ -49,7 +48,6 @@ body {
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
-    font-family: 'Roboto', sans-serif;
     margin-left: 10vw;
 }
 
@@ -86,25 +84,18 @@ body {
     opacity: 1;
 }
 
-.container .card .content h2 {
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.2);
-    pointer-events: none;
-}
-
 .container .card .content h3 {
-    font-size: 1.8em;
-    color: #39a1d5;
+    font-size: 2.5em;
+    color: #fff;
     z-index: 1;
+    font-family: 'Dancing Script', cursive;
+    filter: drop-shadow(0 3px #071393);
 }
 
 .container .card .content p {
     font-size: 1em;
     font-weight: 400;
-    color: white;
+    color: #fff;
 }
 
 .container .card .content a {
@@ -112,18 +103,19 @@ body {
     display: inline-block;
     color: black;
     padding: 8px 20px;
-    margin-top: 15px;
-    background: #39a1d5;
-    color: white;
+    margin-top: 8px;
+    background: #071393;
+    color: #fff;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 1px;
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     font-family: 'Poppins';
+    transition: ease-in 0.3s;
 }
 
 .container .card .content a:hover {
-    background-color: white;
-    color: #39a1d5;
-    box-shadow: white 0px 0px 17px;
+    background-color: #fff;
+    color: #071393;
 }
 

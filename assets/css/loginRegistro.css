@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
 }
 
 body {
@@ -46,7 +46,7 @@ button {
     border-radius: 2em;
     border: 1px solid rgb(223, 223, 223);
     font-size: 12px;
-    background: #39a1d5;
+    background: #0b158b;
     color: white;
     font-weight: bold;
     padding: 1em 5em;
@@ -170,9 +170,9 @@ input {
 }
 
 .overlay {
-    background: #39a1d5;
-    background: -webkit-linear-gradient(20deg, #6acdff, #236383);
-    background: -webkit-linear-gradient(0deg, #6acdff, #3193c3);
+    background: #071393;
+    background: -webkit-linear-gradient(20deg, #0c1166, #1a259a);
+    background: -webkit-linear-gradient(0deg, #2231d5, #0a136e);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -227,7 +227,7 @@ input {
 }
 
 .social-container a:hover {
-    background-color: #3193c3;
+    background-color: #0b158b;
     color: white;
 }
 

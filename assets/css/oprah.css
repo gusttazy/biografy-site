@@ -50,18 +50,11 @@
 
 .ophome {
     max-width: 550px;
-    border-radius: 13px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transition: 0.3s ease-in;
+    border-radius: 22px;
     margin-top: 5vh;
-    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-    cursor: pointer;
-    transition: ease-in 0.2s;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
 }
 
-.ophome:hover {
-    transform: scale(1.01);
-}
 
 .home-content   {
     max-width: 50vw;
@@ -107,7 +100,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+iframe {
     margin-top: 5vh;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
 }
 
 .opImagens {
@@ -119,6 +116,7 @@
 img {
     max-width: 500px;
     margin-top: 5vh;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
 }
 
 .opFinal {
@@ -133,7 +131,7 @@ img {
     font-size: 42px;
     margin-bottom: 20vh;
     text-indent: 3vw;
-    color: rgb(93, 107, 192);
+    color: #071393;
     font-family: 'Kalam', cursive;
     text-justify: inter-word;
 }
