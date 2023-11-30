@@ -21,11 +21,10 @@ body {
 }
 
 h1 {
-    margin-top: 20vh;
+    margin-top: 30vh;
     margin-left: 20vw;
     font-size: 52px;
     color: #071393;
-    filter: drop-shadow(3px 3px rgb(204, 204, 204));
 }
 
 .texto {
@@ -39,12 +38,11 @@ p {
     margin-left: 20vw;
 }
 
-.boneco {
+#boneco {
     position: absolute;
     max-width: 600px;
     right: 5vw;
     top: 10vh;
-    filter: drop-shadow(3px 6px #04061d);
   }
 
   @media screen and (max-width: 1000px) {

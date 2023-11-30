@@ -6,6 +6,11 @@
     font-family: 'Poppins';
 }
 
+@font-face {
+    font-family: 'flo';
+    src: url('/assets/fonts/florensa.ttf') format('truetype');
+}
+
 a  {
     color: #fff;
     text-decoration: none;
@@ -17,19 +22,21 @@ a  {
 .logo {
     font-size: 24px;
     margin-right: 20vw;
-    transition: ease-in 0.5s;
+    font-family: 'flo';
+    letter-spacing: 1px;
+    transition: ease-in-out 0.3s;
 }
 
 .logo:hover {
     text-shadow: 0px 0px 2px #e0e0e0;
-    transform: scale(1.03);
+    color: #eef0ff;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #04061d;
+    background: #0a104b;
     height: 9vh;
 }
 
@@ -69,7 +76,7 @@ nav {
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #04061d;
+        background: #0a104b;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
