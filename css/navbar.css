@@ -15,14 +15,13 @@ a  {
     color: #fff;
     text-decoration: none;
     transition: 0.3s ease;
-    font-family: 'Poppins';
 }
 
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     margin-right: 20vw;
-    font-family: 'flo';
     letter-spacing: 1px;
     transition: ease-in-out 0.3s;
 }
